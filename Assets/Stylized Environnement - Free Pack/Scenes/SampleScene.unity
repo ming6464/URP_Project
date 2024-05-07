@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.08229208, g: 0.38385427, b: 0.46966732, a: 1}
+  m_IndirectSpecularColor: {r: 0.08239555, g: 0.3837184, b: 0.46977714, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -293,6 +293,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3252409458296418148, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c450668acecc97844bfdea3c37f74374, type: 2}
     - target: {fileID: 4015196811787746717, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -340,6 +344,14 @@ PrefabInstance:
     - target: {fileID: 4015196811787746718, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
       propertyPath: m_Name
       value: Evironment_Ocean
+      objectReference: {fileID: 0}
+    - target: {fileID: 9034365551425553130, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -94.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9034365551425553130, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -146.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
