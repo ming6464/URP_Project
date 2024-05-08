@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Smoke_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 96b58056660f14c4dbf1fea831b0b1a3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_d02975a56dd44481a6c6aac8562a41fe:
+        m_Texture: {fileID: 2800000, guid: 7a4a3cbf6b7f0e6418568ff3311bda7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_13cbbc7d95984beaa183cc7a9e66d873: 0
+    - Vector1_17fad92a528749bbb76f4f708ca63758: 0
+    - Vector1_2c8937a920624314a3be82a3e2f38582: 21.1
+    - Vector1_85cce90ca5024460a3cb73716e6c47e4: 13.55
+    - Vector1_c5f09124696446f69d2fe6121d152094: -4.3
+    m_Colors:
+    - Vector2_9dab2edc9cc24b64a0b2ab1989c8bf13: {r: 0, g: 3, b: 0, a: 0}
+    - Vector3_1: {r: 15, g: 0, b: 5, a: 0}
+    - Vector3_171a43caf24b4e089dc375017218e50c: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_2: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_3: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
