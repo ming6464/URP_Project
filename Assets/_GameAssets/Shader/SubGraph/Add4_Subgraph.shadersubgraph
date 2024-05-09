@@ -1,0 +1,177 @@
+{
+    "m_SGVersion": 2,
+    "m_Type": "UnityEditor.ShaderGraph.GraphData",
+    "m_ObjectId": "7d001d5444444bc885d73ae6b5d26deb",
+    "m_Properties": [
+        {
+            "m_Id": "829de83d1fc34f23ac34228f329ff974"
+        },
+        {
+            "m_Id": "48e85712f53d4b1e9f5ae24bb3b60a46"
+        },
+        {
+            "m_Id": "5f6b7e3a23774656b176eb951313971c"
+        },
+        {
+            "m_Id": "c0fb33132e36488095276814327f21cf"
+        }
+    ],
+    "m_Keywords": [],
+    "m_Nodes": [
+        {
+            "m_Id": "93d1326ce6d1491e8d25d8ca272ad507"
+        }
+    ],
+    "m_GroupDatas": [],
+    "m_StickyNoteDatas": [],
+    "m_Edges": [],
+    "m_VertexContext": {
+        "m_Position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "m_Blocks": []
+    },
+    "m_FragmentContext": {
+        "m_Position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "m_Blocks": []
+    },
+    "m_PreviewData": {
+        "serializedMesh": {
+            "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
+            "m_Guid": ""
+        }
+    },
+    "m_Path": "Sub Graphs",
+    "m_ConcretePrecision": 0,
+    "m_PreviewMode": 2,
+    "m_OutputNode": {
+        "m_Id": "93d1326ce6d1491e8d25d8ca272ad507"
+    },
+    "m_ActiveTargets": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector4ShaderProperty",
+    "m_ObjectId": "48e85712f53d4b1e9f5ae24bb3b60a46",
+    "m_Guid": {
+        "m_GuidSerialized": "518042fd-6fc9-4c0b-ac75-6cfd6d2159ed"
+    },
+    "m_Name": "B",
+    "m_DefaultReferenceName": "Vector4_48e85712f53d4b1e9f5ae24bb3b60a46",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector4ShaderProperty",
+    "m_ObjectId": "5f6b7e3a23774656b176eb951313971c",
+    "m_Guid": {
+        "m_GuidSerialized": "c7a666c1-7712-4234-bcb7-f0ad3655af3d"
+    },
+    "m_Name": "C",
+    "m_DefaultReferenceName": "",
+    "m_OverrideReferenceName": "Vector4_1",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector4ShaderProperty",
+    "m_ObjectId": "829de83d1fc34f23ac34228f329ff974",
+    "m_Guid": {
+        "m_GuidSerialized": "5baafeaa-46c0-434a-8f8d-faba95a63a7c"
+    },
+    "m_Name": "A",
+    "m_DefaultReferenceName": "Vector4_829de83d1fc34f23ac34228f329ff974",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphOutputNode",
+    "m_ObjectId": "93d1326ce6d1491e8d25d8ca272ad507",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Output",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 200.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "IsFirstSlotValid": true
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector4ShaderProperty",
+    "m_ObjectId": "c0fb33132e36488095276814327f21cf",
+    "m_Guid": {
+        "m_GuidSerialized": "e49fb9b9-d9fe-4933-ba37-aeaa2df202c9"
+    },
+    "m_Name": "D",
+    "m_DefaultReferenceName": "",
+    "m_OverrideReferenceName": "Vector4_2",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
