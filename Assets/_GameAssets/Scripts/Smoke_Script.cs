@@ -7,6 +7,9 @@ using UnityEngine;
 public class Smoke_Script : MonoBehaviour
 {
     [SerializeField] private Material _smokeMat;
+    [Header("Light")] 
+    [SerializeField] private Transform _lightDirection1;
+    [SerializeField] private Transform _lightDirection2;
     [Header("Curve Info")]
     [SerializeField] private Transform _curvePoint0;
     [SerializeField] private Transform _curvePoint1;
@@ -20,6 +23,22 @@ public class Smoke_Script : MonoBehaviour
     {
         try
         {
+            Gizmos.color = Color.yellow;
+            Vector3 lightDir = _curvePoint3.position - _lightDirection1.position;
+            if (lightDir != Vector3.zero)
+            {
+                _smokeMat.SetVector("_LightDirect1",Vector3.Normalize(lightDir));
+                Gizmos.DrawLine(_curvePoint3.position,_lightDirection1.position);
+            }
+            
+            Gizmos.color = Color.red;
+            lightDir = _curvePoint3.position - _lightDirection2.position;
+            if (lightDir != Vector3.zero)
+            {
+                _smokeMat.SetVector("_LightDirect2",Vector3.Normalize(lightDir));
+                Gizmos.DrawLine(_curvePoint3.position,_lightDirection2.position);
+            }
+            
             Vector3 pos0 = _curvePoint0.localPosition;
             Vector3 pos1 = _curvePoint1.localPosition;
             Vector3 pos2 = _curvePoint2.localPosition;
@@ -30,9 +49,9 @@ public class Smoke_Script : MonoBehaviour
             Gizmos.DrawSphere(pos2,.1f);
             Gizmos.DrawSphere(pos3,.1f);
             Gizmos.color = Color.green;
-            Gizmos.DrawLine(pos0,pos1);
-            Gizmos.DrawLine(pos1,pos2);
-            Gizmos.DrawLine(pos2,pos3);
+            Gizmos.DrawLine(_curvePoint0.position,_curvePoint1.position);
+            Gizmos.DrawLine(_curvePoint1.position,_curvePoint2.position);
+            Gizmos.DrawLine(_curvePoint2.position,_curvePoint3.position);
             Gizmos.color = _colorLine;
             float tAdd = 1.0f / _density;
             Vector3 previousPoint = pos0;
@@ -49,12 +68,7 @@ public class Smoke_Script : MonoBehaviour
             _smokeMat.SetVector("_curve1",pos1);
             _smokeMat.SetVector("_curve2",pos2);
             _smokeMat.SetVector("_curve3",pos3);
-
-
-            Vector4 Vt3ToVt4(Vector3 vt)
-            {
-                return new Vector4(vt.x, vt.y, vt.z, 0);
-            }
+            
             
         }
         catch
