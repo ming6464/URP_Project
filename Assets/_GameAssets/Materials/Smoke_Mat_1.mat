@@ -149,6 +149,7 @@ Material:
     - Vector1_860fe041f1e94809895485f518962def: 3
     - Vector1_b0fb5370e3e44ddf976de26c55314014: 0.28
     - Vector1_b0fb5370e3e44ddf976de26c55314014_1: -0.06
+    - Vector1_b1afa0fea5c7491ebd16079be695b44a: 0
     - Vector1_b24c84b968bc4462b0470ccce9c41409: 0.4
     - Vector1_b24c84b968bc4462b0470ccce9c41409_1: 0.84
     - Vector1_b73cfa9f64984bcf828bf8da5611ad2f: 0.6
@@ -157,6 +158,7 @@ Material:
     - Vector1_dcc7925ae05d4806925236fe348053e2: 0.43
     - Vector1_e6abc96142254aafb51837a3bf302959: 4
     - Vector1_e7c9ac62f29d4c1d8e04c5894a5aea73: 4
+    - Vector1_ed024f8968d54145b4226176f63a993f: 1
     - Vector1_ef6734c4ed324e999309e10e2c647146: 14.81
     - Vector1_ef8b2a0596eb486f8bf80e1ae45d4b52: 1.03
     - Vector1_f282d4a5666a4c1cb360f2185f2740dc: 6.46
@@ -190,6 +192,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - _maxWidth: 5
     m_Colors:
     - Color_1: {r: 0.011764706, g: 0.023529412, b: 0.21568628, a: 0}
     - Color_5a4f03ad9ecb4f2ab30dc1a8c6264c4a: {r: 0.23529412, g: 0.02745098, b: 0.3254902, a: 0}
@@ -221,8 +224,8 @@ Material:
     - _LightDirect1: {r: 0.613166, g: 0.67058957, b: -0.41753682, a: 0}
     - _LightDirect2: {r: 0.6414162, g: -0.6211544, b: 0.45028043, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _curve0: {r: -0, g: 5.59, b: -2.54, a: 0}
-    - _curve1: {r: 0.11, g: -1.55, b: 2.27, a: 0}
+    - _curve0: {r: -0, g: 5.24, b: -1.52, a: 0}
+    - _curve1: {r: 0.11, g: 0.7, b: 2.32, a: 0}
     - _curve2: {r: 4.71, g: 2.21, b: 5.2, a: 0}
     - _curve3: {r: 0.37, g: -2.5, b: 0.82, a: 0}
   m_BuildTextureStacks: []
