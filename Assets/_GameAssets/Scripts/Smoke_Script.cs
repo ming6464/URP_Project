@@ -8,6 +8,7 @@ public class Smoke_Script : MonoBehaviour
 {
     public bool Run;
     public bool Reset;
+    public bool Edit;
     public float Speed;
     public float Radius;
     [SerializeField] private Material _smokeMat;
@@ -18,10 +19,6 @@ public class Smoke_Script : MonoBehaviour
     [SerializeField] private Transform _curvePoint1;
     [SerializeField] private Transform _curvePoint2;
     [SerializeField] private Transform _curvePoint3;
-    [Header("Edit")] [SerializeField] private bool _edit;
-    [SerializeField] private Color _colorPoint;
-    [SerializeField] private Color _colorLine;
-    [SerializeField] private int _density;
     
     private Vector3 _p0;
     private Vector3 _p1;
@@ -29,15 +26,6 @@ public class Smoke_Script : MonoBehaviour
     private Vector3 _posDefault;
     private float _radius;
     private float _t;
-
-    private void OnValidate()
-    {
-        if (_edit)
-        {
-            _edit = false;
-            LoadEdit();
-        }
-    }
 
     private void Start()
     {
@@ -110,15 +98,21 @@ public class Smoke_Script : MonoBehaviour
         _smokeMat.SetFloat("_maxWidth",_radius);
     }
 
+    private void LateUpdate()
+    {
+        if (Edit)
+        {
+            LoadEdit();
+        }
+        
+    }
+
     private void LoadEdit()
     {
         try
         {
-            Vector3 lightDir = _curvePoint3.position - _lightDirection1.position;
-            if (lightDir != Vector3.zero)
-            {
-                _smokeMat.SetVector("_LightDirect1",Vector3.Normalize(lightDir));
-            }
+            Debug.Log("hello2");
+            _smokeMat.SetVector("_LightDirect1",_lightDirection1.forward);
             _smokeMat.SetVector("_curve0",_curvePoint0.localPosition);
             _smokeMat.SetVector("_curve1",_curvePoint1.localPosition);
             _smokeMat.SetVector("_curve2",_curvePoint2.localPosition);

@@ -196,11 +196,13 @@ Material:
     m_Colors:
     - Color_1: {r: 0.011764706, g: 0.023529412, b: 0.21568628, a: 0}
     - Color_5a4f03ad9ecb4f2ab30dc1a8c6264c4a: {r: 0.23529412, g: 0.02745098, b: 0.3254902, a: 0}
-    - Color_643dc5030b3a4d80a956712f7905b493: {r: 0.5686275, g: 0.039215688, b: 0.40392157, a: 0}
+    - Color_643dc5030b3a4d80a956712f7905b493: {r: 1, g: 0.66968703, b: 0, a: 0}
     - Color_f6b59132af0041b087e2d067b8408427: {r: 0.5686275, g: 0.039215688, b: 0.40392157, a: 0}
     - Vector2_1: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_4e8c701b50be447bb0a1aa78b86ccd77: {r: 2.15, g: -1.34, b: 0, a: 0}
-    - Vector2_6d5dcbb2cb314e6eae751cff8fbb6c51: {r: 0.01, g: -0.5, b: 0, a: 0}
+    - Vector2_5038b0512c0e497080328eed4849d0f5: {r: -1, g: 1, b: 0, a: 0}
+    - Vector2_62e47e8f04bf40a59a4ab40effedeefa: {r: 0.4, g: 0.5, b: 0, a: 0}
+    - Vector2_6d5dcbb2cb314e6eae751cff8fbb6c51: {r: 0.01, g: -0.1, b: 0, a: 0}
     - Vector2_6d87f72f8b3045af998fee8b2d252567: {r: 1, g: -1, b: 0, a: 0}
     - Vector2_8d20a863b98441afa36fce1f13bd564d: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_984673ced151447685d9e0a97f1ff159: {r: 0, g: 0, b: 0, a: 0}
@@ -221,7 +223,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _LightDirect: {r: -0.5788403, g: -0.07103263, b: 0.8123412, a: 0}
-    - _LightDirect1: {r: 0.613166, g: 0.67058957, b: -0.41753682, a: 0}
+    - _LightDirect1: {r: 0.84, g: 0.02, b: -0.47, a: 0}
     - _LightDirect2: {r: 0.6414162, g: -0.6211544, b: 0.45028043, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _curve0: {r: -0, g: 5.24, b: -1.52, a: 0}
