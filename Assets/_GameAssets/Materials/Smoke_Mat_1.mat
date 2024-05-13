@@ -130,7 +130,7 @@ Material:
     - Boolean_de590d9cd53f474497498c13fcca5439: 1
     - Boolean_e09909e113fe47f1ac4f15c3d29842c1: 1
     - Boolean_ff12c8be9bf5419f9668e475c03fe963: 0
-    - Vector1_050f0ac3715244d19ab7c68744a751c4: 7
+    - Vector1_050f0ac3715244d19ab7c68744a751c4: 6
     - Vector1_0ffbed5fb3cb47d19c04d2255513ece3: 0.9
     - Vector1_1: 1
     - Vector1_13cbbc7d95984beaa183cc7a9e66d873: 0.76
@@ -143,6 +143,7 @@ Material:
     - Vector1_4be47e01e85349c6b6e28b93378b61e6: 0.4974
     - Vector1_5746a91cee674b3d897af14576a5ecfe: 0.1
     - Vector1_5e271a1705344271b344df07703c6069: 0.8
+    - Vector1_6b57d139115a4d60a414638dd3fcc6a4: 0.99
     - Vector1_80587b442dd741beb2e575b10f0dfac5: 0.25
     - Vector1_851d95f3cc954c23a43808150f24cf3c: 1.4
     - Vector1_860fe041f1e94809895485f518962def: 3
@@ -196,7 +197,7 @@ Material:
     - Color_f6b59132af0041b087e2d067b8408427: {r: 0.44705883, g: 0.015686275, b: 0.33333334, a: 0}
     - Vector2_1: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_4e8c701b50be447bb0a1aa78b86ccd77: {r: -1.5, g: -0.5, b: 0, a: 0}
-    - Vector2_6d5dcbb2cb314e6eae751cff8fbb6c51: {r: 0.1, g: -0.3, b: 0, a: 0}
+    - Vector2_6d5dcbb2cb314e6eae751cff8fbb6c51: {r: 0.01, g: -0.05, b: 0, a: 0}
     - Vector2_6d87f72f8b3045af998fee8b2d252567: {r: 1, g: -1, b: 0, a: 0}
     - Vector2_8d20a863b98441afa36fce1f13bd564d: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_984673ced151447685d9e0a97f1ff159: {r: 0, g: 0, b: 0, a: 0}
@@ -217,11 +218,11 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _LightDirect: {r: -0.5788403, g: -0.07103263, b: 0.8123412, a: 0}
-    - _LightDirect1: {r: 0.6859778, g: 0.5321245, b: -0.4962639, a: 0}
-    - _LightDirect2: {r: 0.7390926, g: -0.45858562, b: 0.49339783, a: 0}
+    - _LightDirect1: {r: -0.28605223, g: -0.0675628, b: 0.9558292, a: 0}
+    - _LightDirect2: {r: 0.6414162, g: -0.6211544, b: 0.45028043, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _curve0: {r: 0, g: 6.3, b: -2.64, a: 0}
-    - _curve1: {r: 0, g: 3, b: 0.78, a: 0}
-    - _curve2: {r: 0, g: -0.23, b: 0.91, a: 0}
-    - _curve3: {r: 0, g: -2.5, b: 0, a: 0}
+    - _curve0: {r: -0, g: 4.28, b: 0, a: 0}
+    - _curve1: {r: 0.11, g: 0.43, b: 0, a: 0}
+    - _curve2: {r: 4.71, g: -0.6, b: 0, a: 0}
+    - _curve3: {r: 0.37, g: -2.5, b: 0, a: 0}
   m_BuildTextureStacks: []

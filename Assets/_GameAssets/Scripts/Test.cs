@@ -10,7 +10,7 @@ public class Test : MonoBehaviour
     public bool Run;
 
     void Update()
-    {
+    {  
        
 
         if (Run)

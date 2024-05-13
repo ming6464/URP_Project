@@ -9,7 +9,6 @@ public class Smoke_Script : MonoBehaviour
     [SerializeField] private Material _smokeMat;
     [Header("Light")] 
     [SerializeField] private Transform _lightDirection1;
-    [SerializeField] private Transform _lightDirection2;
     [Header("Curve Info")]
     [SerializeField] private Transform _curvePoint0;
     [SerializeField] private Transform _curvePoint1;
@@ -30,15 +29,6 @@ public class Smoke_Script : MonoBehaviour
                 _smokeMat.SetVector("_LightDirect1",Vector3.Normalize(lightDir));
                 Gizmos.DrawLine(_curvePoint3.position,_lightDirection1.position);
             }
-            
-            Gizmos.color = Color.red;
-            lightDir = _curvePoint3.position - _lightDirection2.position;
-            if (lightDir != Vector3.zero)
-            {
-                _smokeMat.SetVector("_LightDirect2",Vector3.Normalize(lightDir));
-                Gizmos.DrawLine(_curvePoint3.position,_lightDirection2.position);
-            }
-            
             Vector3 pos0 = _curvePoint0.localPosition;
             Vector3 pos1 = _curvePoint1.localPosition;
             Vector3 pos2 = _curvePoint2.localPosition;
