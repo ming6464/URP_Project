@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Smoke_Mat
+  m_Name: Smoke_Mat 1
   m_Shader: {fileID: -6465566751694194690, guid: e031e3a29b0a22644bd9fc9dab41a9d3, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -149,7 +149,7 @@ Material:
     - Vector1_2: 7
     - Vector1_29ccdce2b7cb46a0bae560febdb7658a: -0.3
     - Vector1_2d6cfe4b61e3487b86753380dfe4075a: 0
-    - Vector1_317f04f0403e43d1892b553bd5353fc1: 13
+    - Vector1_317f04f0403e43d1892b553bd5353fc1: 0
     - Vector1_32b5e65d44f3450ead8f7cfef6f6f1ac: 0.62
     - Vector1_32bcc21151be45eba3f67486bafcf58a: 0.473
     - Vector1_3f344d3bd8ff427a96d8ee7d91dc2654: 1.7
@@ -216,21 +216,17 @@ Material:
     - Color_1: {r: 0.011764706, g: 0.023529412, b: 0.21568628, a: 0}
     - Color_5a4f03ad9ecb4f2ab30dc1a8c6264c4a: {r: 0.23529412, g: 0.02745098, b: 0.3254902, a: 0}
     - Color_643dc5030b3a4d80a956712f7905b493: {r: 1, g: 0.66968703, b: 0, a: 0}
-    - Color_72878ef2fe524ce78de00722f7053800: {r: 0.011764706, g: 0.023529412, b: 0.21568628, a: 0}
     - Color_f6b59132af0041b087e2d067b8408427: {r: 0.5686275, g: 0.039215688, b: 0.40392157, a: 0}
-    - Vector2_1: {r: -1, g: 0, b: 0, a: 0}
+    - Vector2_1: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_4e8c701b50be447bb0a1aa78b86ccd77: {r: 2.15, g: -1.34, b: 0, a: 0}
     - Vector2_5038b0512c0e497080328eed4849d0f5: {r: -1, g: 1, b: 0, a: 0}
-    - Vector2_5133d1cae33545faaea7a3cbff038e64: {r: 2, g: 2, b: 0, a: 0}
     - Vector2_62e47e8f04bf40a59a4ab40effedeefa: {r: 0.4, g: 0.5, b: 0, a: 0}
     - Vector2_6d5dcbb2cb314e6eae751cff8fbb6c51: {r: 0, g: -1, b: 0, a: 0}
     - Vector2_6d87f72f8b3045af998fee8b2d252567: {r: 1, g: -1, b: 0, a: 0}
     - Vector2_8836b342bb494e35ae9d0b70056af4cd: {r: 0, g: -1, b: 0, a: 0}
     - Vector2_8d20a863b98441afa36fce1f13bd564d: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_984673ced151447685d9e0a97f1ff159: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_98ddaabc7d394b429ca1a6439d3a3e0c: {r: -0.5, g: 0.2, b: 0, a: 0}
-    - Vector2_cf784bf4bd8d4aea94c0bebf5957f070: {r: 0.56, g: 1, b: 0, a: 0}
-    - Vector2_cf784bf4bd8d4aea94c0bebf5957f070_1: {r: 0.7, g: 1, b: 0, a: 0}
+    - Vector2_98ddaabc7d394b429ca1a6439d3a3e0c: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_f8b8249b1ef4458b8b862b69f24120d0: {r: 0, g: 1, b: 0, a: 0}
     - Vector3_1: {r: 0, g: -8.67, b: -3.72, a: 0}
     - Vector3_171a43caf24b4e089dc375017218e50c: {r: 0, g: 1.8, b: -4.77, a: 0}
@@ -252,7 +248,7 @@ Material:
     - _LightDirect1: {r: -0, g: -0.9987162, b: -0.05065673, a: 0}
     - _LightDirect2: {r: 0, g: -0.7948381, b: 0.60682154, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _colorAbove: {r: 0.29512447, g: 0, b: 0.5943396, a: 0}
+    - _colorAbove: {r: 0.23529412, g: 0.02745098, b: 0.3254902, a: 0}
     - _colorBelow: {r: 0.5686274, g: 0.03921569, b: 0.40392157, a: 0}
     - _colorOutline: {r: 1, g: 0.67058825, b: 0, a: 0}
     - _colorStoke: {r: 0.01176471, g: 0.02352941, b: 0.21568623, a: 0}
