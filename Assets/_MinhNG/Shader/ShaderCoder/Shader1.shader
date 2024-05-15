@@ -1,8 +1,8 @@
-Shader "Unlit/Shader1"
+Shader "ShaderCode/Shader1"
 {
     Properties
     {
-//        _MainTex ("Texture", 2D) = "white" {}
+        _MainTex ("Texture", 2D) = "white" {}
         _Value ("Value",Float) = 1.0
     }
     SubShader
