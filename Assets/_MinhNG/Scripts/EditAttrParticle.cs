@@ -4,7 +4,6 @@ public class EditAttrParticle : MonoBehaviour
 {
     [SerializeField] private Material _matEdit;
     [SerializeField] private float _alpha;
-    [SerializeField] private Color _color;
     [SerializeField] private string _id;
     
     public float Alpha
@@ -22,9 +21,10 @@ public class EditAttrParticle : MonoBehaviour
         {
             _alpha = value;
         }
-        
-        _color.a = _alpha;
-        _matEdit.SetColor(_id,_color);
+
+        Color ab = _matEdit.GetColor(_id);
+        ab.a = _alpha;
+        _matEdit.SetColor(_id,ab);
     }
     
     private void OnDrawGizmos()

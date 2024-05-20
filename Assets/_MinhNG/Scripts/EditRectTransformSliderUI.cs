@@ -17,6 +17,7 @@ public class EditRectTransformSliderUI : MonoBehaviour
     }
 
     [SerializeField] private float _alphaDefault;
+    [SerializeField] private bool _onlyApplyAlphaDefault;
     [SerializeField] private Vector2 _anchoredPositionDefault;
     [SerializeField] private Vector2 _sizeDeltaDefault;
     [SerializeField] private PhaseSetup[] _phaseSetups;
@@ -85,10 +86,12 @@ public class EditRectTransformSliderUI : MonoBehaviour
     
     private void LoadDefault()
     {
-        _myRectTf.anchoredPosition = _anchoredPositionDefault;
-        _myRectTf.sizeDelta = _sizeDeltaDefault;
+        
         _editAttr.EditAlpha(_alphaDefault);
         _passAlpha = _alphaDefault;
+        if(_onlyApplyAlphaDefault) return;
+        _myRectTf.anchoredPosition = _anchoredPositionDefault;
+        _myRectTf.sizeDelta = _sizeDeltaDefault;
         _passAnchoredPosition = _anchoredPositionDefault;
         _passSizeDelta = _sizeDeltaDefault;
     }
