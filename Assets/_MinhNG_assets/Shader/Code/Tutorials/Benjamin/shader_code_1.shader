@@ -2,9 +2,9 @@ Shader "Tutorials/Benjamin/shader_code_1"
 {
     Properties
     {
-        _t("value color",float) = 1
         _Color("color 1", color) = (1,1,1,1)
         _Texture("Texture 1", 2D) = "white"{}
+        _AnimateXY("Animate X Y", Vector) = (0,0,0,0)
     }
     SubShader
     {
@@ -21,6 +21,8 @@ Shader "Tutorials/Benjamin/shader_code_1"
             //property
             float _t;
             sampler2D _Texture;
+            float4 _Texture_ST;
+            float4 _AnimateXY;
             //
             
             struct appdata
@@ -40,22 +42,16 @@ Shader "Tutorials/Benjamin/shader_code_1"
             v2f vert (appdata v)
             {
                 v2f o;
-                o.uv = v.uv;
                 o.vertex = UnityObjectToClipPos(v.vertex);
+                o.uv = TRANSFORM_TEX(v.uv,_Texture);
+                o.uv += _AnimateXY.xy * _Time.y;
                 return o;
-            }
-
-            float4 Getcolor(sampler2D sampler,float2 uv)
-            {
-                float4 color = tex2D(sampler, uv);
-                return color;
             }
 
             float4 frag (v2f i) : SV_Target
             {
                 fixed4  texColor = tex2D(_Texture,i.uv);
-                fixed4 col = fixed4(i.uv,0,0);
-                return Getcolor(_Texture,i.uv);
+                return texColor;
             }
             ENDCG
         }
