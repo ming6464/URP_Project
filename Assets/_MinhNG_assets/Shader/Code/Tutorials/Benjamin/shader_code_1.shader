@@ -44,7 +44,7 @@ Shader "Tutorials/Benjamin/shader_code_1"
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv,_Texture);
-                o.uv += _AnimateXY.xy * _Time.y;
+                o.uv += frac(_AnimateXY.xy * _Time.y);
                 return o;
             }
 
