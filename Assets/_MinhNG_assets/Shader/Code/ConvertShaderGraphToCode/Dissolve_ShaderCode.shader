@@ -1,4 +1,4 @@
-Shader "ConvertToCode/Dissolve"
+Shader "ShaderCode/ConvertToCode/Dissolve"
 {
     Properties
     {

@@ -1,4 +1,4 @@
-Shader "Tutorials/Benjamin/shader_code_1"
+Shader "ShaderCode/Tutorials/Benjamin/shader_code_1"
 {
     Properties
     {
