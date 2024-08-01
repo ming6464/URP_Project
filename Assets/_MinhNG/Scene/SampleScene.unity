@@ -558,19 +558,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4015196812853817629, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.7589295e+22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4015196812853817629, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 1.1306983e+24
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4015196812853817629, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.0764005e+10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4015196812853817629, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 3.5439108e-12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4015196813546544822, guid: 3142df25cd6e18d48ac233bcc0fb8943, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2071,7 +2071,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fc9d02ce8f50bd4595406c7f745b773, type: 3}
   m_Name: 
@@ -2299,7 +2299,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4e-45, y: 4.5917748e-38, z: -6.257306e+28, w: 1.7218867e+10}
+  m_BoundingSphereOverride: {x: 4.1003012e-19, y: 2.2e-44, z: -2.4405384e-30, w: 9.188e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
